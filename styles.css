@@ -1,0 +1,140 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Roboto' , sans-serif;
+}
+body{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background: rgb(121,144,208);
+    background: linear-gradient(90deg, rgba(121,144,208,1) 0%,
+    rgba(73,87,187,1) 72%, rgba(28,77,160,1) 100%,
+    rgba(3,63,106,1) 100%);
+    color: whitesmoke; 
+}
+h1{
+    margin-top: 30px;
+}
+.guitars-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 90%;
+    height: fit-content;
+    border-top: solid 2px whitesmoke;
+    margin-top: 20px;
+}
+.guitar{
+    display: flex;
+    flex-direction: column;
+    margin: 20px;    
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+.guitar-img{
+    width: 165px;
+    height: 165px;
+    border-radius: 4px;  
+    margin-top: 4px;
+    margin-bottom: 4px; 
+}
+.guitar-btn{
+    padding: 5px;
+    background-color: rgba(3,63,106,1);
+    color: whitesmoke;
+    border: none;
+    border-radius: 4px;
+    font-weight: bold;
+}
+.guitar-btn:hover{
+    background-color: whitesmoke;
+    color: rgba(3,63,106,1);
+}
+.items-container{
+    padding: 10px;
+    width: 80%;
+    height: fit-content;
+    border-top: solid 2px whitesmoke;
+    border-bottom: solid 2px whitesmoke;
+    display: flex;
+    flex-direction: column;
+    font-size: 1.2rem;
+    justify-content: center;
+}
+.item{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    margin: auto;
+}
+.item-img{
+    width: 60px;
+    height: 60px;
+    border-radius: 2px;
+}
+.item-title{
+    margin-top: 34px;
+    width: 30%;
+}
+.item-price{
+    margin-top: 34px;
+    width: 20%;
+}
+.item-input{
+    margin-top: 17px;
+    width: 50px;
+    height: 39px;
+    border: none;
+    border-radius: 2px;
+    text-align: center;
+}
+.item-btn{
+    margin-top: 16px;
+    padding: 10px;
+    height: 41px;
+    background-color: rgb(126, 9, 9);
+    color: whitesmoke;
+    border: none;
+    border-radius: 4px;
+    font-weight: bold;
+    width: 100px;
+}
+.item-btn:hover{
+    background-color:rgb(194, 21, 21);
+    color: whitesmoke;
+}
+.total{
+    padding: 10px;
+    width: 80%;
+    height: fit-content;
+    border-bottom: solid 2px whitesmoke;
+    display: flex;
+    flex-direction: column;
+    font-size: 1.4rem;
+    font-weight: bold;
+    text-align: right;
+}
+.check-out-container{
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+.check-out{
+    padding: 5px;
+    background-color: rgba(3,63,106,1);
+    color: whitesmoke;
+    border: none;
+    border-radius: 4px;
+    font-weight: bold;
+    width: 180px;
+    height: 40px;
+    font-size: 1rem;
+}
+.check-out:hover{
+    background-color: whitesmoke;
+    color: rgba(3,63,106,1);
+}

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Simple Shopping Cart</title>
+    <link rel="icon" href="./images/shopping-cart.png" />
+    <link rel="stylesheet" href="styles.css" />
+    <script src="javascript.js"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <h1>Simple Shopping Cart</h1>
+
+    <div class="guitars-container">
+      <div class="guitar">
+        <span class="guitar-title">Gibson Sg</span>
+        <img class="guitar-img" src="./images/Gibson Sg.jpg" alt="" />
+        <span class="guitar-price">$ 1200</span>
+        <button class="guitar-btn">Buy</button>
+      </div>
+      <div class="guitar">
+        <span class="guitar-title">Gibson Les Paul</span>
+        <img class="guitar-img" src="./images/Gibson Les Paul.jpg" alt="" />
+        <span class="guitar-price">$ 1400</span>
+        <button class="guitar-btn">Buy</button>
+      </div>
+      <div class="guitar">
+        <span class="guitar-title">Fender Stratocaster</span>
+        <img class="guitar-img" src="./images/Fender Strato.jpg" alt="" />
+        <span class="guitar-price">$ 1150</span>
+        <button class="guitar-btn">Buy</button>
+      </div>
+      <div class="guitar">
+        <span class="guitar-title">Fender Telecaster</span>
+        <img class="guitar-img" src="./images/Fender Telecaster.jpg" alt="" />
+        <span class="guitar-price">$ 1400</span>
+        <button class="guitar-btn">Buy</button>
+      </div>
+      <div class="guitar">
+        <span class="guitar-title">Ibanez Satch</span>
+        <img class="guitar-img" src="./images/Ibanez Satch.jpg" alt="" />
+        <span class="guitar-price">$ 1500</span>
+        <button class="guitar-btn">Buy</button>
+      </div>
+    </div>
+
+    <div class="items-container" id="items-container"></div>
+
+    <div class="total">
+      <div id="result">Total: $ 0</div>
+    </div>
+
+    <div class="check-out-container">
+      <button class="check-out" id="check-out">Check out</button>
+    </div>
+  </body>
+</html>
